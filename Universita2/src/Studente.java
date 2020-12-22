@@ -8,15 +8,7 @@ public class Studente {
 		private int voto_Fisica;
 		private int voto_Informatica;
 		private int media;
-		
-//		Studente(String nome, String cognome, int analisi, int fisica, int informatica) {
-//			Nome = nome;
-//			Cognome = cognome;
-//			voto_Analisi = analisi;
-//			voto_Fisica = fisica;
-//			voto_Informatica = informatica;
-//		
-//		}
+		private int voto_Inglese;
 		
 		
 		Studente() {
@@ -80,8 +72,7 @@ public class Studente {
 	
 	
 		public void identita() {
-//			System.out.println("Nome " + Nome);
-//			System.out.println("Cognome " + Cognome);
+
 			System.out.println("voto_Analisi " + voto_Analisi);
 			System.out.println("voto_Fisica " + voto_Fisica);
 			System.out.println("voto_Informatica " + voto_Informatica);
